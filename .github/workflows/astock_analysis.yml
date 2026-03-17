@@ -20,7 +20,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install torch pandas numpy akshare matplotlib pyarrow tqdm
+          pip install torch pandas numpy akshare matplotlib pyarrow tqdm baostock
 
       - name: Run analysis
         env:
